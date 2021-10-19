@@ -1,10 +1,12 @@
+import Navbar from '../Components/NavBar/Navbar';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1> React Quiz App </h1> 
-    </div>
+    <>
+      <Navbar /> 
+    </>
   );
 }
 
