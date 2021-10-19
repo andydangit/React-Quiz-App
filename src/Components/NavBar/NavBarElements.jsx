@@ -24,3 +24,18 @@ cursor: pointer;
     color: #15cdfc;
 }
 `
+
+export const Bars = styled(FaBars)`
+display: none;
+color: #fff;
+
+@media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+`
