@@ -4,13 +4,14 @@ const homeStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '90vh'
+    height: '90vh',
+    color: 'red'
 }
 
 
 const Home = () => {
     return (
-        <div style={{homeStyle}}>
+        <div style={homeStyle}>
             <h1> Home </h1> 
         </div>
     );
