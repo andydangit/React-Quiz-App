@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { NavLinks as Link } from 'react-router-dom'
+import { NavLink as Link } from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
@@ -42,10 +42,12 @@ color: #fff;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-right: -24px;
+margin-right: 50px;
+font-size: 30px;
 
 @media screen and (max-width: 768px){
     display: none;
 }
 `
+
 
