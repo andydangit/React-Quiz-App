@@ -9,7 +9,7 @@ const [gameState, setGameState] = useState("menu");
     return (
         <div>
             <h1> Home</h1> 
-{/* determine the game state on which value it will render  */}
+            
             {gameState === "menu" && <MainMenu />}
             {gameState === "Quiz" && <Quiz />}
             {gameState === "GameOver" && <GameOver />}
