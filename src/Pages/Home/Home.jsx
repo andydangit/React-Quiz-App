@@ -14,8 +14,8 @@ const [gameState, setGameState] = useState("menu");
             <h1> Home</h1> 
             <QuizContext.Provider value={{gameState, setGameState}}> 
             {gameState === "menu" && <MainMenu />}
-            {gameState === "Quiz" && <Quiz />}
-            {gameState === "GameOver" && <GameOver />}
+            {gameState === "quiz" && <Quiz />}
+            {gameState === "gameOver" && <GameOver />}
             </QuizContext.Provider>
 
         </div>
