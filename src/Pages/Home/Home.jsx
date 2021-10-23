@@ -5,7 +5,7 @@ const [gameState, setGameState] = useState("menu");
 
     return (
         <div>
-            
+            <h1> Home </h1> 
         </div>
     )
 }
