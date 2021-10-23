@@ -1,20 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react'
 
-const homeStyle = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '90vh',
-    color: 'red'
+function Home() {
+const [gameState, setGameState] = useState("menu");
+
+    return (
+        <div>
+            
+        </div>
+    )
 }
 
-
-const Home = () => {
-    return (
-        <div style={homeStyle}>
-            <h1> Home </h1> 
-        </div>
-    );
-};
-
-export default Home;
+export default Home
