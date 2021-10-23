@@ -11,16 +11,17 @@ function Quiz() {
   const [optionChosen, setOptionChosen] = useState("")
 
   const nextQuestion = () => {
-    if (Questions[currentQuestion].answer == optionChosen){
+    if (Questions[currentQuestion].answer === optionChosen){
         setScore(score + 1)
     }
     setCurrentQuestion(currentQuestion + 1)
   };
 
   const finish = () => {
-    if (Questions[currentQuestion].answer == optionChosen){
+    if (Questions[currentQuestion].answer === optionChosen){
         setScore(score + 1)
     }
+    alert(score)
     setGameState("gameOver")
   }
 
