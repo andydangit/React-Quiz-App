@@ -10,6 +10,7 @@ function Quiz() {
     <div className="Quiz">
       <h1>{Questions[currentQuestion].prompt} </h1>
       <div className="options">
+          {/* this will register the option that is pick  */}
         <button onClick={() => setOptionChosen("A")}> {Questions[currentQuestion].optionA} </button>
         <button onClick={() => setOptionChosen("B")}> {Questions[currentQuestion].optionB} </button>
         <button onClick={() => setOptionChosen("C")}> {Questions[currentQuestion].optionC} </button>
