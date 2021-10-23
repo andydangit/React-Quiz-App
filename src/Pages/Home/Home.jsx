@@ -11,7 +11,7 @@ const [gameState, setGameState] = useState("menu");
 
     return (
         <div>
-            <h1> Home</h1> 
+            <h1> React Quiz </h1> 
             <QuizContext.Provider value={{gameState, setGameState}}> 
             {gameState === "menu" && <MainMenu />}
             {gameState === "quiz" && <Quiz />}
