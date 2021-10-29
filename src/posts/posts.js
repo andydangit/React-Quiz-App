@@ -1,5 +1,5 @@
 import React from 'react'
-import SampleAnswer from '../Data/SampleAnswer.json'
+import SampleAnswer from '../Data/db.json'
 
 function Posts() {
     return (
