@@ -3,6 +3,7 @@ import React, {useState, useContext} from 'react'
 import GameOver from '../../Components/GameOver/GameOver';
 import MainMenu from '../../Components/MainMenu/MainMenu';
 import Quiz from '../../Components/Quiz/Quiz';
+import Post from "../../posts/Posts"
 
 import { QuizContext } from "../../Helpers/Contexts";
 
@@ -18,6 +19,7 @@ const [score, setScore] = useState(0)
             {gameState === "quiz" && <Quiz />}
             {gameState === "gameOver" && <GameOver />}
             </QuizContext.Provider>
+            < Post /> 
 
         </div>
     )
