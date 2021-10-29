@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "question": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "question": "x",
+      "author": "x"
+    }
+  ]
+}
