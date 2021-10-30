@@ -3,15 +3,12 @@ import axios from "axios";
 
 import Card from "./Card";
 
-
-
-
 function UserList() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
     const getUser = async () => {
-      const res = await axios.get("../../db.json");
+      const res = await axios.get("http://localhost:8000/posts");
       setUsers(res.data);
     };
     getUser();

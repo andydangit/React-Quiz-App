@@ -1,10 +1,10 @@
 import React, {useState, useContext} from 'react'
 
-import GameOver from '../../Components/GameOver/GameOver';
-import MainMenu from '../../Components/MainMenu/MainMenu';
-import Quiz from '../../Components/Quiz/Quiz';
-import Post from "../../posts/posts"
-import { QuizContext } from "../../Helpers/Contexts";
+// import GameOver from '../../Components/GameOver/GameOver';
+// import MainMenu from '../../Components/MainMenu/MainMenu';
+// import Quiz from '../../Components/Quiz/Quiz';
+// import Post from "../../posts/posts"
+// import { QuizContext } from "../../Helpers/Contexts";
 
 
 import List from '../../Components/List'

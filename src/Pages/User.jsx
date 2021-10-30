@@ -9,7 +9,7 @@ function User() {
 
     useEffect(() => {
         const getUser = async () => {
-            const res = await axios.get(`../../db.json`)
+            const res = await axios.get(`http://localhost:8000/posts/${userId}`)
             setUser(res.data)
         }
         getUser();
@@ -17,8 +17,7 @@ function User() {
 
     return (
         <div>
-            <p> {user.name} </p> 
-            <p> {user.email} </p> 
+            <p> {user.answer} </p> 
             
         </div>
     )

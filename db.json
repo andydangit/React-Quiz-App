@@ -2,13 +2,43 @@
   "posts": [
     {
       "id": 1,
-      "name": "json-server",
-      "user": "typicode"
+      "questions": "React.js ",
+      "answer": "A JavaScript library created for building fast and interactive user interfaces for web and mobile applications"
     },
     {
       "id": 2,
-      "question": "x",
-      "author": "x"
+      "questions": "Library",
+      "answer": "It lets you develop a top UI for both web and mobile applications"
+    },
+    {
+      "id": 3,
+      "questions": "Props",
+      "answer": "A component-based library that divides the UI into little reusable pieces"
+    },
+    {
+      "id": 4,
+      "questions": "State",
+      "answer": "Object is where you store property values that belongs to the component"
+    },
+    {
+      "id": 5,
+      "questions": "Babel",
+      "answer": "JavaScript compiler that includes the ability to compile JSX into regular JavaScript."
+    },
+    {
+      "id": 6,
+      "questions": "JSX",
+      "answer": "JavaScript Extension Syntax used in React to easily write HTML and JavaScript together"
+    },
+    {
+      "id": 7,
+      "questions": "Virtual DOM",
+      "answer": "Concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM "
+    },
+    {
+      "id": 8,
+      "questions": "Component",
+      "answer": " Is an independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML"
     }
   ]
 }
