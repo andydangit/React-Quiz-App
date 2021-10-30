@@ -6,10 +6,12 @@ import Quiz from '../../Components/Quiz/Quiz';
 import Post from "../../posts/posts"
 import { QuizContext } from "../../Helpers/Contexts";
 
+import List from '../../Components/List'
+
 
 function Home() {
-const [gameState, setGameState] = useState("menu");
-const [score, setScore] = useState(0)
+// const [gameState, setGameState] = useState("menu");
+// const [score, setScore] = useState(0)
 
     return (
         <div>
