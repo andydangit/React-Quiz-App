@@ -9,7 +9,7 @@ function User() {
 
     useEffect(() => {
         const getUser = async () => {
-            const res = await axios.get(`https://jsonplaceholder.typicode.com/users/${userId}`)
+            const res = await axios.get(`../../db.json`)
             setUser(res.data)
         }
         getUser();

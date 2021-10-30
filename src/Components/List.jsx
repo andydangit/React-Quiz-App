@@ -4,12 +4,14 @@ import axios from "axios";
 import Card from "./Card";
 
 
+
+
 function UserList() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
     const getUser = async () => {
-      const res = await axios.get("https://jsonplaceholder.typicode.com/users");
+      const res = await axios.get("../../db.json");
       setUsers(res.data);
     };
     getUser();
