@@ -3,7 +3,7 @@ import axios from "axios";
 
 import Card from "./Card";
 
-function UserList() {
+function List() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ function UserList() {
   );
 }
 
-export default UserList;
+export default List;
