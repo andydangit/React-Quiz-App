@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 import Card from "./Card";
-import db from '../../src/'
+
 
 function UserList() {
   const [users, setUsers] = useState([]);
