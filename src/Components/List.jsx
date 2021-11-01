@@ -8,7 +8,7 @@ function List() {
 
   useEffect(() => {
     const getUser = async () => {
-      const res = await axios.get("http://localhost:8000/posts");
+      const res = await axios.get("https://react-quiz-app-json.netlify.app/db.json");
       setUsers(res.data);
     };
     getUser();

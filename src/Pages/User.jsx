@@ -9,7 +9,8 @@ function User() {
 
     useEffect(() => {
         const getUser = async () => {
-            const res = await axios.get(`http://localhost:8000/posts/${userId}`)
+            const res = await axios.get(`https://react-quiz-app-json.netlify.app/db.json/${userId}`)
+            console.log(res.data);
             setUser(res.data)
         }
         getUser();
