@@ -9,7 +9,7 @@ function User() {
 
     useEffect(() => {
         const getUser = async () => {
-            const res = await axios.get(`https://react-quiz-app-json.netlify.app/db.json/${userId}`)
+            const res = await axios.get(`https://react-quiz-app-json.netlify.app/db.json`)
             console.log(res.data);
             setUser(res.data)
         }
@@ -18,7 +18,7 @@ function User() {
 
     return (
         <div>
-            <p> {user.answer} </p> 
+            <p> {user.filter(posts => posts.answer)} </p> 
             
         </div>
     )
